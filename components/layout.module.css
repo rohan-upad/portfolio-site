@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.a:hover {
+    border: none;
+}
+
+.navItems a {
+    margin-left: 20px;
+    color: #E2E2E2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Staatliches';
+    font-weight: 100;
+}
+
+.homeLink {
+    font-size: 30px;
+    color: white;
+}
+
+.headerImage {
+    width: 6rem;
+    height: 6rem;
+}
+
+.headerHomeImage {
+    width: 8rem;
+    height: 8rem;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+.container {
+    width: 812px;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+    -webkit-animation: fadein 1s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 1s;
+    /* Internet Explorer */
+    -o-animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
