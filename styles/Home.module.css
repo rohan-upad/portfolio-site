@@ -184,6 +184,7 @@
     margin-bottom: 0px;
     line-height: 1.5em;
     color: #E5E5E5;
+    width: max-content;
 }
 
 .link:hover {
