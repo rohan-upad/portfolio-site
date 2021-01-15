@@ -21,8 +21,6 @@ export default function Home() {
             <h2 className = {styles.contact}>Contact</h2>
             <a href = "https://www.linkedin.com/in/rohan-upadhyayula-b37178146/"
             target="_blank" className = {styles.link}>LinkedIn</a>
-            <a href = "./resume.pdf"
-            target="_blank" className = {styles.link}>Resume</a>
             <a target="_blank" href = "mailto:rohan.upad123@gmail.com" className = {styles.link}>rohan.upad123@gmail.com</a>
           </div>
         <div>
