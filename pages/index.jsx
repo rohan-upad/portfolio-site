@@ -36,8 +36,7 @@ export default function Home() {
             <div id = "groupMeImg"className = {styles.itemImg}></div>
             <div className = {styles.itemContent}>
               <p className = {styles.itemTitle}>GroupMe Announcements</p>
-              <p className = {styles.itemBody}>Designing a new announcements feature in GroupMe
-              to help users find high priority messages.</p>
+              <p className = {styles.itemBody}>Creating a new announcements feature to help users find high priority messages.</p>
               <a target="_blank" href = "https://rohanupadhyayula.medium.com/groupme-announcements-overcoming-the-infinite-scroll-6b0ac92e724b"
               className = {styles.caseButton}>VIEW CASE STUDY</a>
             </div>
@@ -46,7 +45,7 @@ export default function Home() {
             <div id = "eatlyImg"className = {styles.itemImg}></div>
             <div className = {styles.itemContent}>
               <p className = {styles.itemTitle}>Eatly</p>
-              <p className = {styles.itemBody}>Designing and prototyping a daily ordering platform with React.js.</p>
+              <p className = {styles.itemBody}>Designing and prototyping a daily meal ordering web-app with React.js.</p>
               <a target="_blank" href = "https://rohanupadhyayula.medium.com/eatly-creating-a-daily-meal-ordering-tool-8860476e1b58"
               className = {styles.caseButton}>VIEW CASE STUDY</a>
             </div>
