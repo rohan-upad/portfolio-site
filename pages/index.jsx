@@ -36,7 +36,8 @@ export default function Home() {
             <div id = "groupMeImg"className = {styles.itemImg}></div>
             <div className = {styles.itemContent}>
               <p className = {styles.itemTitle}>GroupMe Announcements</p>
-              <p className = {styles.itemBody}>Taking on the infinite scroll.</p>
+              <p className = {styles.itemBody}>Designing a new announcements feature in GroupMe
+              to help users find high priority messages.</p>
               <a target="_blank" href = "https://rohanupadhyayula.medium.com/groupme-announcements-overcoming-the-infinite-scroll-6b0ac92e724b"
               className = {styles.caseButton}>VIEW CASE STUDY</a>
             </div>
@@ -54,7 +55,8 @@ export default function Home() {
             <div id = "mingleHallImg" className = {styles.itemImg}></div>
             <div className = {styles.itemContent}>
               <p className = {styles.itemTitle}>Mingle Hall</p>
-              <p className = {styles.itemBody}>Meeting classmates in the pandemic age.</p>
+              <p className = {styles.itemBody}>Designing a charades-based mobile app to help classmates meet each other
+              during the pandemic.</p>
               <a target="_blank" href = "https://rohanupadhyayula.medium.com/mingle-hall-meeting-classmates-in-the-pandemic-age-8ca35fe13918"
               className = {styles.caseButton}>VIEW CASE STUDY</a>
             </div>
