@@ -35,7 +35,7 @@ export default function Home() {
           <article className = {styles.portfolioItem}>
             <div id = "groupMeImg"className = {styles.itemImg}></div>
             <div className = {styles.itemContent}>
-              <p className = {styles.itemTitle}>GroupMe Announcements</p>
+              <p className = {styles.itemTitle}>GroupMe Announcements Concept</p>
               <p className = {styles.itemBody}>Creating a new announcements feature to help users find high priority messages.</p>
               <a target="_blank" href = "https://rohanupadhyayula.medium.com/groupme-announcements-overcoming-the-infinite-scroll-6b0ac92e724b"
               className = {styles.caseButton}>VIEW CASE STUDY</a>
