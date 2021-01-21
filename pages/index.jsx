@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <section className={styles.introContent}>
         <div className={styles.introText}>
-          <p>Rohan is a Product Designer<br></br> from
+          <p>Rohan is a Designer and Developer from
             San Jose, California.
           </p>
           <div className={styles.contactText}>
@@ -36,7 +36,7 @@ export default function Home() {
             <div id = "groupMeImg"className = {styles.itemImg}></div>
             <div className = {styles.itemContent}>
               <p className = {styles.itemTitle}>GroupMe Announcements Concept</p>
-              <p className = {styles.itemBody}>Creating a new announcements feature to help users find high priority messages.</p>
+              <p className = {styles.itemBody}>Designing a new announcements feature to help users find high priority messages.</p>
               <a target="_blank" href = "https://rohanupadhyayula.medium.com/groupme-announcements-overcoming-the-infinite-scroll-6b0ac92e724b"
               className = {styles.caseButton}>VIEW CASE STUDY</a>
             </div>
