@@ -190,6 +190,11 @@
     width: max-content;
 }
 
+.spacer {
+    height: 100px;
+    background-color: #060606;
+}
+
 .link:hover {
     color: #9e9e9e;
     transition: .3s ease;

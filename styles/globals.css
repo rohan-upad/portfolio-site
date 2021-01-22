@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+main {
+    background-color: #060606;
+}
+
 p {
     letter-spacing: -0.02em;
 }
