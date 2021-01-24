@@ -18,7 +18,12 @@ export default function Home() {
             San Jose, California.
           </p>
         <div>
-
+        <div className={styles.contactText}>
+            <h2 className = {styles.contact}>Contact</h2>
+            <a href = "https://www.linkedin.com/in/rohan-upadhyayula-b37178146/"
+            target="_blank" className = {styles.link}>LinkedIn</a>
+            <a target="_blank" href = "mailto:rohan.upad123@gmail.com" className = {styles.link}>rohan.upad123@gmail.com</a>
+      </div>
         </div>
         </div>
         <img className = {styles.homeImage} src = "/images/profile.jpg"/>
@@ -56,12 +61,6 @@ export default function Home() {
           </article>
         </div>
       </section>
-      <div className={styles.contactText}>
-            <h2 className = {styles.contact}>Contact</h2>
-            <a href = "https://www.linkedin.com/in/rohan-upadhyayula-b37178146/"
-            target="_blank" className = {styles.link}>LinkedIn</a>
-            <a target="_blank" href = "mailto:rohan.upad123@gmail.com" className = {styles.link}>rohan.upad123@gmail.com</a>
-      </div>
       <div className={styles.spacer}>
 
       </div>
