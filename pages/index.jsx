@@ -32,7 +32,9 @@ export default function Home() {
         <h2 className = {styles.h2}>Portfolio</h2>
         <div className = {styles.portfolioItems}>
           <article className = {styles.portfolioItem}>
-            <div id = "groupMeImg"className = {styles.itemImg}></div>
+            <a target="_blank" href = "https://rohanupadhyayula.medium.com/groupme-announcements-overcoming-the-infinite-scroll-6b0ac92e724b">
+              <div id = "groupMeImg" className = {styles.itemImg}></div>
+            </a>
             <div className = {styles.itemContent}>
               <p className = {styles.itemTitle}>GroupMe Announcements Concept</p>
               <p className = {styles.itemBody}>Designing a new announcements feature to help users find high priority messages.</p>
@@ -41,7 +43,9 @@ export default function Home() {
             </div>
           </article>
           <article className = {styles.portfolioItem}>
-            <div id = "eatlyImg"className = {styles.itemImg}></div>
+              <a target="_blank" href = "https://rohanupadhyayula.medium.com/eatly-creating-a-daily-meal-ordering-tool-8860476e1b58">
+                <div id = "eatlyImg"className = {styles.itemImg}></div>
+              </a>
             <div className = {styles.itemContent}>
               <p className = {styles.itemTitle}>Eatly</p>
               <p className = {styles.itemBody}>Designing and prototyping a daily meal ordering web-app with React.js.</p>
@@ -50,7 +54,9 @@ export default function Home() {
             </div>
           </article>
           <article className = {styles.portfolioItem}>
-            <div id = "mingleHallImg" className = {styles.itemImg}></div>
+              <a target="_blank" href = "https://rohanupadhyayula.medium.com/mingle-hall-meeting-classmates-in-the-pandemic-age-8ca35fe13918">
+                <div id = "mingleHallImg" className = {styles.itemImg}></div>
+              </a>
             <div className = {styles.itemContent}>
               <p className = {styles.itemTitle}>Mingle Hall</p>
               <p className = {styles.itemBody}>Designing a charades-based mobile app to help classmates meet each other
