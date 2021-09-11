@@ -200,7 +200,7 @@
     transition: .3s ease;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     .homeImage {
         display: none;
     }
