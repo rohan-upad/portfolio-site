@@ -226,9 +226,7 @@
     .portfolio {
         margin-top: 100px;
     }
-    .portfolioItems {
-        margin-top: 40px;
-    }
+    .portfolioItems {}
     .portfolioItem {
         margin-bottom: 40px;
         height: 200px
