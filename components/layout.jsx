@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
         </Head>
         <header className={styles.header}>
             <Link href = {''}><a className = {styles.homeLink}>Rohan Upadhyayula</a></Link>
