@@ -20,9 +20,11 @@ export default function Home() {
         <div>
         <div className={styles.contactText}>
             <h2 className = {styles.contact}>Contact</h2>
+            <a target="_blank" className = {styles.link} href="/resume.pdf">Resume</a>
             <a href = "https://www.linkedin.com/in/rohan-upadhyayula-b37178146/"
             target="_blank" className = {styles.link}>LinkedIn</a>
             <a target="_blank" href = "mailto:rohan.upad123@gmail.com" className = {styles.link}>rohan.upad123@gmail.com</a>
+            
       </div>
         </div>
         </div>
@@ -43,17 +45,6 @@ export default function Home() {
             </div>
           </article>
           <article className = {styles.portfolioItem}>
-              <a target="_blank" href = "https://rohanupadhyayula.medium.com/eatly-creating-a-daily-meal-ordering-tool-8860476e1b58">
-                <div id = "eatlyImg"className = {styles.itemImg}></div>
-              </a>
-            <div className = {styles.itemContent}>
-              <p className = {styles.itemTitle}>Eatly</p>
-              <p className = {styles.itemBody}>Designing and prototyping a daily meal ordering web-app with React.js.</p>
-              <a target="_blank" href = "https://rohanupadhyayula.medium.com/eatly-creating-a-daily-meal-ordering-tool-8860476e1b58"
-              className = {styles.caseButton}>VIEW CASE STUDY</a>
-            </div>
-          </article>
-          <article className = {styles.portfolioItem}>
               <a target="_blank" href = "https://rohanupadhyayula.medium.com/mingle-hall-meeting-classmates-in-the-pandemic-age-8ca35fe13918">
                 <div id = "mingleHallImg" className = {styles.itemImg}></div>
               </a>
@@ -62,6 +53,17 @@ export default function Home() {
               <p className = {styles.itemBody}>Designing a charades-based mobile app to help classmates meet each other
               during the pandemic.</p>
               <a target="_blank" href = "https://rohanupadhyayula.medium.com/mingle-hall-meeting-classmates-in-the-pandemic-age-8ca35fe13918"
+              className = {styles.caseButton}>VIEW CASE STUDY</a>
+            </div>
+          </article>
+          <article className = {styles.portfolioItem}>
+              <a target="_blank" href = "https://rohanupadhyayula.medium.com/eatly-creating-a-daily-meal-ordering-tool-8860476e1b58">
+                <div id = "eatlyImg"className = {styles.itemImg}></div>
+              </a>
+            <div className = {styles.itemContent}>
+              <p className = {styles.itemTitle}>Eatly</p>
+              <p className = {styles.itemBody}>Designing and prototyping a daily meal ordering web-app with React.js.</p>
+              <a target="_blank" href = "https://rohanupadhyayula.medium.com/eatly-creating-a-daily-meal-ordering-tool-8860476e1b58"
               className = {styles.caseButton}>VIEW CASE STUDY</a>
             </div>
           </article>
